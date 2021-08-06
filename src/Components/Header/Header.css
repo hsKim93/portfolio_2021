@@ -1,0 +1,42 @@
+.jumbotron {
+    padding: 0 60px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 4px 4px 4px #808080;
+    background: rgb(233, 225, 225);
+}
+
+.my_name {
+    font-size: 6em;
+    margin: 0 0 40px 0;
+}
+
+.divider {
+    font-size:1em;
+}
+
+.about_me {
+    padding: 18px 24px;
+    position: relative;
+    top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-size: 200%;
+    transition: 0.6s;
+    background-image: linear-gradient(to left,#12CBC4,#0652DD,#12CBC4);
+}
+
+@media (max-width: 800px) {
+    .my_name {
+        font-size: 3em;
+    }
+    .jumbotron {
+        align-items: center;
+        text-align: center;
+    }
+}

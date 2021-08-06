@@ -1,0 +1,35 @@
+.nav_display {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(240, 234, 234, 0.9);
+    /* background: linear-gradient(90deg, rgb(94, 86, 159), rgb(51, 146, 219));; */
+    border-radius: 0 0 5px 10px;
+}
+
+.nav_comps {
+    text-align: center;
+    width: 180px;
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+    transition: ease-in 0.2s;
+}
+
+.nav_comps:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 92, 5);
+}
+@media (max-width: 800px) {
+    .nav_display {
+        font-size:1em;
+    }
+    .nave_comps {
+        padding: 10px
+    }
+}

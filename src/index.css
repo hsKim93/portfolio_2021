@@ -1,0 +1,22 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-position: right;
+}
+
+a:visited {
+    color: black;
+}
+
+:root {
+    --animate-delay:0.25s;
+}
