@@ -15,7 +15,7 @@ function Footer() {
             </div>
             <br />
             <div className='end'>
-                <a className='back_to_top' href='#header'>Hyungsuk Kim</a>
+                <a className='back_to_top b' href='#header'>Hyungsuk Kim</a>
             </div>
         </footer>
     )

@@ -1,10 +1,44 @@
-.email_me {
-    padding: 18px 24px;
-    width: auto;
-    border-radius: 6px;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    background-size: 200%;
-    transition: 0.6s;
-    background-image: linear-gradient(to left, rgb(176, 212, 191), rgb(16, 150, 234), rgb(176, 212, 191));;
+.contact_display {
+    padding: 0 60px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background: whitesmoke;
+}
+
+.contact {
+    font-size: 2em;
+    font-weight: bold;
+    color:gray;
+}
+
+.contact_content {
+    font-size: 1.5em;
+    font-weight: bold;
+    color:gray;
+}
+
+@media (max-width: 700px) {
+    .contact_display {
+        padding: 0;
+    }
+    .contact {
+        font-size: 1.8em;
+    }
+    .contact_content {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .contact {
+        font-size: 1.5em;
+    }
+    .contact_content {
+        font-size: 1em;
+    }
+
 }

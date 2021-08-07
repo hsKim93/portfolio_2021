@@ -18,7 +18,7 @@
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
+}
   
 .txt:after {
     content: '\00bb';

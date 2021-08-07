@@ -5,14 +5,13 @@ import AnchorButton from '../AnchorButton/AnchorButton';
 function Contact() {
     return (
         <div id='contact' className='zone contact_display bb bw1 b--black-30'>
-            <p>Email: jonathanhsk@hotmail.com <br />
-                Phone: 516-342-0136</p>
+            <h3 className='mb3 mt4 contact ttu'>Contact</h3>
+            <p className='mv2 contact_content'><span className='ttu'>Email</span>: jonathanhsk@hotmail.com</p>
+                <p className='mv2 contact_content'><span className='ttu'>Phone</span>: 516-342-0136</p>
             <AnchorButton link={'mailto:jonathanhsk@email.com'}
                 content={'Email me'}
-                classAttr={'blue ttu'}
+                classAttr={'blue ttu mt2 mb4'}
                 new_tab={true} />
-            {/* <a rel="noreferrer" target="_blank" className="email_me" href="mailto:jonathanhsk@email.com">
-                Email me</a> */}
         </div>
     )
 }
